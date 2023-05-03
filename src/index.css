@@ -1,0 +1,289 @@
+:root {
+  font-family: Helvetica;
+}
+
+#Cover {
+  background-color: #F1F3FF;
+  padding-top: 80px;
+}
+
+#Cover, h1 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 150%;
+}
+
+#Cover p {
+  max-width: 500px; 
+}
+
+nav {
+  background-color: #F1F3FF;
+}
+
+ul.navbar-nav {
+  padding: 0 50px;
+}
+
+h1 {
+  font-family: 'Helvetica';
+  font-style: normal;
+  
+  padding-bottom: 15px;
+}
+
+#Banner, h1 {
+  padding-top: 30px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 150%;
+}
+
+h2 {
+  font-family: 'Helvetica';
+  font-style: normal;
+  line-height: 36px;
+  
+  padding-bottom: 15px;
+
+}
+
+h2.accordion-header {
+  padding-left: 0px;
+  margin-bottom: -13px;
+}
+
+#OurService h2, .why-us h2, .testimonial h2{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+#Faq h2 {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+h3 {
+  font-family: 'Helvetica';
+  font-style: normal;
+  
+  padding-top: 20px;
+}
+h4 {
+  
+  padding-bottom: 20px;
+}
+
+.why-us h3 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+p,li { 
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+p.item {
+  padding-top: 10px;
+}
+
+#Footer a{ 
+  font-weight: 700;
+}
+
+#OurService p {
+  max-width: 520px;
+}
+
+.shadow {
+  background-color: white;
+  margin-top: -50px;
+}
+
+button.btn-regist, button.btn-filter, button.btn-pilih-mobil, button.btn-sewa, button.btn-sewa-mobil {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 700;
+  
+  background: #5CB85F;
+  border-radius: 2px;
+}
+
+button.btn-sewa-mobil {
+  margin-top: 40px;
+}
+
+button.btn-filter {
+  margin-top: 31px;
+}
+
+button.btn-pilih-mobil {
+  width: 100%;
+}
+
+section#OurService {
+  padding-top: 80px;
+}
+
+section.why-us {
+  padding-top: 80px;
+}
+
+section.testimonial {
+  padding-top: 80px;
+  
+}
+#Faq {
+  padding-top: 80px;
+}
+
+#why-us .card {
+  height: 196px;
+}
+
+#testimonial .card {
+  background-color: #F1F3FF;
+  height: 270px;
+}
+
+#testimonial .card-body {
+  display: grid;
+  align-items: center;
+}
+
+#Banner {
+  margin-top: 100px;
+  height: 400px;
+  color: white;
+  background-color:#0D28A6;
+  border-radius: 13px;
+}
+
+#OurService ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#OurService li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+#OurService li:before{
+  margin-right: 15px;
+  width: 24px;
+  height: 24px;
+}
+
+#accordionPanelsStayOpenExample .accordion-item {
+  border-top: 2px solid #D4D4D4;
+  border-bottom: 2px solid #D4D4D4;
+  border-left: 2px solid #D4D4D4;
+  border-right: 2px solid #D4D4D4;
+  border-radius: 4px;
+}
+
+#Footer {
+  padding-top: 150px;
+}
+
+#Footer a:link {color: black;text-decoration:none;}
+#Footer a:visited {color: black;text-decoration:none;}
+#Footer a:hover {text-decoration:underline;}
+
+/* swiper css */
+.carousel-wrapper{
+  overflow: hidden;
+}
+.swiper-container {
+  width: 50%;
+  overflow: visible;
+  margin: 0 auto;
+}
+.swiper-navigation{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+button.swiper-prev , button.swiper-next {
+  background : white;
+  border : 1px solid #c4c4c4;
+  margin: 0 5px;
+  border-radius : 100%;
+  font-weight: 500;
+  font-size : 1rem;
+  line-height : 1em;
+  height : 32px;
+  width : 32px;
+}
+
+button.swiper-prev:hover , button.swiper-next:hover {
+  background : #5CB85F;
+  color: white;
+}
+
+
+/* button.swiper-prev{
+  display: flex;
+  content: url('../img/left_button.svg');
+  border: 0;
+  background: transparent;
+  justify-items: center;
+}
+
+button.swiper-next{
+  display: flex;
+  content: url('../img/right_button.svg');
+  border: 0;
+  background: transparent;
+  justify-items: center;
+} */
+
+@media only screen and (max-width: 1200px) {
+  #why-us .header, #Faq .header {
+      text-align: center;
+  }
+  p.item {
+      font-size: 12px;
+   }
+   .shadow {
+      margin-top: -10px;
+  }
+}
+@media only screen and (max-width: 992px) {
+ #OurService .header{
+   align-items: center;
+ }
+ p.star{
+  text-align: center;
+ }
+ ul.navbar-nav {
+  padding: 0;
+  }
+  
+}
+
+@media screen and (max-width: 768px) {
+  .swiper-container {
+      width: 90%;
+  }
+  #Footer{
+      padding-top: 50px;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+}
