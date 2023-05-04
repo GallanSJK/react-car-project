@@ -8,17 +8,11 @@ export default function Banner () {
         <>
             <section id="Banner">
                 <Container className="text-center">
-                    <h2 className="text-center fw-bold text-light pt-5">Sewa Mobil di (Lokasimu) Sekarang</h2>
-                    <p className="text-center pt-3" style={{
-                        fontSize: '14px',
-                        fontWeight: '300',
-                        lineHeight: '20px',
-                        color: '#ffff'
-                    }}
-                    >
-                        Lorem ipsum dolor sit amet, consectetur Lorem ipsum Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis, beatae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, sequi. dolor sit amet. adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    <h1>Sewa Mobil di (Lokasimu) Sekarang</h1>
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     </p>
-                    <Button className="btn-sewa-mobil mt-4">Mulai Sewa Mobil</Button>
+                    <Button className="btn-sewa-mobil">Mulai Sewa Mobil</Button>
                 </Container>
             </section>
         </>

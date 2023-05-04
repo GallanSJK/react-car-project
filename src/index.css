@@ -2,26 +2,26 @@
   font-family: Helvetica;
 }
 
-#Cover {
+.Cover {
   background-color: #F1F3FF;
   padding-top: 80px;
 }
 
-#Cover, h1 {
+.Cover, h1 {
   font-weight: 700;
   font-size: 36px;
   line-height: 150%;
 }
 
-#Cover p {
+/* .Cover, p {
   max-width: 500px; 
-}
+} */
 
 nav {
   background-color: #F1F3FF;
 }
 
-ul.navbar-nav {
+nav.nav-link {
   padding: 0 50px;
 }
 
@@ -32,7 +32,7 @@ h1 {
   padding-bottom: 15px;
 }
 
-#Banner, h1 {
+#Banner h1 {
   padding-top: 30px;
   font-weight: 700;
   font-size: 36px;
@@ -48,18 +48,30 @@ h2 {
 
 }
 
-h2.accordion-header {
+.accordion-header {
   padding-left: 0px;
   margin-bottom: -13px;
 }
 
-#OurService h2, .why-us h2, .testimonial h2{
+#OurService, h2{
   font-weight: 700;
   font-size: 24px;
   line-height: 36px;
 }
 
-#Faq h2 {
+#WhyUs, h2{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+#Testimonial, h2{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+#Faq, h2 {
   font-weight: 700;
   font-size: 24px;
 }
@@ -75,7 +87,7 @@ h4 {
   padding-bottom: 20px;
 }
 
-.why-us h3 {
+#WhyUs, h3 {
   font-weight: 700;
   font-size: 16px;
   line-height: 24px;
@@ -116,7 +128,7 @@ button.btn-regist, button.btn-filter, button.btn-pilih-mobil, button.btn-sewa, b
 }
 
 button.btn-sewa-mobil {
-  margin-top: 40px;
+  margin-top: 10px;
 }
 
 button.btn-filter {
@@ -131,7 +143,7 @@ section#OurService {
   padding-top: 80px;
 }
 
-section.why-us {
+section#WhyUs {
   padding-top: 80px;
 }
 
@@ -143,7 +155,7 @@ section.testimonial {
   padding-top: 80px;
 }
 
-#why-us .card {
+#WhyUs .card {
   height: 196px;
 }
 
@@ -183,7 +195,7 @@ section.testimonial {
   height: 24px;
 }
 
-#accordionPanelsStayOpenExample .accordion-item {
+.accordion .accordion-item {
   border-top: 2px solid #D4D4D4;
   border-bottom: 2px solid #D4D4D4;
   border-left: 2px solid #D4D4D4;
@@ -249,7 +261,7 @@ button.swiper-next{
 } */
 
 @media only screen and (max-width: 1200px) {
-  #why-us .header, #Faq .header {
+  #WhyUs .header, #Faq .header {
       text-align: center;
   }
   p.item {
@@ -266,7 +278,7 @@ button.swiper-next{
  p.star{
   text-align: center;
  }
- ul.navbar-nav {
+ nav.nav-link {
   padding: 0;
   }
   
@@ -287,3 +299,4 @@ button.swiper-next{
     background-color: #ffffff;
   }
 }
+

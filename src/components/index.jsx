@@ -4,6 +4,5 @@ export { default as Cover } from './Cover'
 export { default as OurService } from './OurService'
 export { default as Banner } from './Banner'
 export { default as Faq } from './Faq'
-
-// export { default as WhyUs } from './WhyUs'
+export { default as WhyUs } from './WhyUs'
 

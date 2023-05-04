@@ -18,7 +18,7 @@ export default function OurService() {
                         </Col>
                         <Col lg={6} xs={12}>
                             <h2>Best Car Rental for any kind of trip in (Lokasimu)!</h2>
-                            <p className="pt-3 service-text">Sewa mobil di (Lokasimu) bersama Binar Car Rental jaminan harga lebih murah dibandingkan yang lain, kondisi mobil baru, serta kualitas pelayanan terbaik untuk perjalanan wisata, bisnis, wedding, meeting, dll.</p>
+                            <p className="pt-3">Sewa mobil di (Lokasimu) bersama Binar Car Rental jaminan harga lebih murah dibandingkan yang lain, kondisi mobil baru, serta kualitas pelayanan terbaik untuk perjalanan wisata, bisnis, wedding, meeting, dll.</p>
                             <ul>
                                 <li>
                                     <p><Image src={ImgChecked} fluid /> &nbsp; Sewa Mobil Dengan Supir di Bali 12 Jam</p>

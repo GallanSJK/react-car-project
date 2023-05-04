@@ -1,4 +1,4 @@
-import { Header, Footer, OurService, Banner, Faq, Cover } from './components'
+import { Header, Footer, OurService, Banner, Faq, Cover, WhyUs } from './components'
 import './App.css'
 
 function App() {
@@ -8,6 +8,7 @@ function App() {
       <Header />
         <Cover />
         <OurService />
+        <WhyUs />
         <Banner />
         <Faq />
       <Footer />
