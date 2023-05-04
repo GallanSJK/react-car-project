@@ -13,13 +13,12 @@ export default function Testimonial() {
   return (
       <>
           <section id="Testimonial">
-            
               <Col xs={12} lg={12} className='text-center'>
                 <h2>Testimonial</h2>
                 <p>Berbagai review positif dari para pelanggan kami</p>
               </Col>
               <div className="carousel-wrapper">
-                <div className="swiper-container mySwiper">
+                <div className="swiper-container">
                
                 <Swiper 
                 modules={[Navigation, Pagination, Scrollbar, A11y]}

@@ -32,8 +32,8 @@ h1 {
   padding-bottom: 15px;
 }
 
-#Banner h1 {
-  padding-top: 30px;
+#Banner, h1 {
+  padding-top: 20px;
   font-weight: 700;
   font-size: 36px;
   line-height: 150%;

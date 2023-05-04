@@ -6,15 +6,13 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 export default function Banner () {
     return (
         <>
-            <section id="Banner">
-                <Container className="text-center">
+                <Container className="text-center" id="Banner">
                     <h1>Sewa Mobil di (Lokasimu) Sekarang</h1>
                     <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     </p>
                     <Button className="btn-sewa-mobil">Mulai Sewa Mobil</Button>
                 </Container>
-            </section>
         </>
     )
 }
