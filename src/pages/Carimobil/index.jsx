@@ -5,6 +5,7 @@ import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import { Footer, Header, Cover } from "../../components";
+import { List } from "../../pages";
 import { useLocation } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css'
 
@@ -54,6 +55,7 @@ export default function Carimobil() {
                     </Row>
                 </Container>
             </section>
+            <List />
             <Footer />
         </>
     )
