@@ -147,7 +147,7 @@ section#WhyUs {
   padding-top: 80px;
 }
 
-section.testimonial {
+section#Testimonial {
   padding-top: 80px;
   
 }
@@ -159,12 +159,12 @@ section.testimonial {
   height: 196px;
 }
 
-#testimonial .card {
+#Testimonial .card {
   background-color: #F1F3FF;
   height: 270px;
 }
 
-#testimonial .card-body {
+#Testimonial .card-body {
   display: grid;
   align-items: center;
 }
@@ -226,7 +226,7 @@ section.testimonial {
   margin-top: 20px;
 }
 
-button.swiper-prev , button.swiper-next {
+button.swiperprev , button.swipernext {
   background : white;
   border : 1px solid #c4c4c4;
   margin: 0 5px;
@@ -238,27 +238,10 @@ button.swiper-prev , button.swiper-next {
   width : 32px;
 }
 
-button.swiper-prev:hover , button.swiper-next:hover {
+button.swiperprev:hover , button.swipernext:hover {
   background : #5CB85F;
   color: white;
 }
-
-
-/* button.swiper-prev{
-  display: flex;
-  content: url('../img/left_button.svg');
-  border: 0;
-  background: transparent;
-  justify-items: center;
-}
-
-button.swiper-next{
-  display: flex;
-  content: url('../img/right_button.svg');
-  border: 0;
-  background: transparent;
-  justify-items: center;
-} */
 
 @media only screen and (max-width: 1200px) {
   #WhyUs .header, #Faq .header {
