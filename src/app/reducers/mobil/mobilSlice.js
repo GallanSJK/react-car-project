@@ -1,5 +1,5 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
-import { fetchMobilApi } from './ListApi';
+import { fetchMobilApi } from './mobilApi';
 
 export const fetchMobil = createAsyncThunk(
     'mobil/fetchMobil',

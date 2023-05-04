@@ -1,10 +1,13 @@
 import { useState, useEffect, useRef } from 'react'
 import { useSelector, useDispatch } from 'react-redux'
+// import Container from 'react-bootstrap/Container';
+// import Row from 'react-bootstrap/Row';
+// import Button from 'react-bootstrap/Button';
 import {
     fetchMobil,
     selectMobil,
     selectMobilLoading
-} from './ListSlice'
+} from '../../app/reducers/mobil/mobilSlice'
 
 export default function List() {
   const firstLoad = useRef(true)
