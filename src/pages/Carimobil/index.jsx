@@ -63,6 +63,7 @@ export default function Carimobil() {
                 <Container>
                     <Row className="justify-content-center">
                         <Col lg={12}>
+                        {/* <Form onSubmit={(e) => handleFilter(e)}></Form> */}
                         <div className="shadow p-3 rounded">
                           <Row className="row-cols-lg-auto g-0 justify-content-around">
                             <Col xs={12} lg={2}>
@@ -76,7 +77,8 @@ export default function Carimobil() {
 
                             <Col xs={12} lg={2}>
                               <label htmlFor="exampleDataList" className="form-label">Tanggal</label>
-                              <Form.Control type="date" id="tersedia" placeholder="Select Date" />
+                              <Form.Control type="date" id="tersedia" name="availableAt" placeholder="Select Date" />
+                              {/* <Form.Control type="date" id="tersedia" name="availableAt" onChange={(e) => handleChange(e)} /> */}
                             </Col>
 
                             <Col xs={12} lg={2}>
@@ -89,7 +91,7 @@ export default function Carimobil() {
                               <Form.Control type="text" id="penumpang" placeholder="Jumlah Penumpang" />
                             </Col>        
                                                 
-                            <Button id="filter" className="btn-filter">
+                            <Button id="filter" type="submit" className="btn-filter">
                               Cari Mobil
                             </Button>
                             
