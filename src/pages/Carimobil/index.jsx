@@ -21,21 +21,44 @@ export default function Carimobil() {
   const firstLoad = useRef(true)
   const mobil = useSelector(selectMobil)
   const mobilLoading = useSelector(selectMobilLoading)
+  // const [filter, setFilter] = useState({
+  //   availableAt: ''
+  // })
 
   const dispatch = useDispatch();
 
   useEffect(() => {
     if(firstLoad.current) dispatch(fetchMobil())
-
     return () => {
         firstLoad.current = false
     }
   }, [])
 
+  // const handleChange = (e) => {
+  //   setFilter({
+  //       ...filter,
+  //       [e.target.name]: e.target.value 
+  //   })
+  // }
+
+  // const handleFilter = (e) => {
+  //   e.preventDefault()
+
+  //   dispatch(filterMobil(filter))
+  // }
+
+  // useEffect(() => {
+  //   console.log(data)
+  // }, [data])
+
     return (
         <>
             <Header />
             <Cover />
+            {/* <form onSubmit={(e) => handleFilter(e)}>
+                <input type="date" name="availableAt" onChange={(e) => handleChange(e)}/>
+                <button type='submit'>Search</button>
+            </form> */}
             <section className="Carimobil">
                 <Container>
                     <Row className="justify-content-center">
