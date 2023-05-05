@@ -22,26 +22,26 @@ export default function Carimobil() {
                         <div className="shadow p-3 rounded">
                           <Row className="row-cols-lg-auto g-0 justify-content-around">
                             <Col xs={12} lg={2}>
-                              <label id="tipedriver" for="exampleDataList" className="form-label">Tipe Driver</label>
-                              <Form.Select aria-label="Default select example">
-                                <option value="0" selected>Pilih Tipe Driver</option>
+                              <label id="tipedriver" htmlFor="exampleDataList" className="form-label">Tipe Driver</label>
+                              <Form.Select  aria-label="Default select example">
+                                <option value="0">Pilih Tipe Driver</option>
                                 <option value="Dengan Supir">Dengan Sopir</option>
                                 <option value="Lepas Kunci">Tanpa Sopir (Lepas Kunci)</option>
                               </Form.Select>
                             </Col>
 
                             <Col xs={12} lg={2}>
-                              <label for="exampleDataList" className="form-label">Tanggal</label>
+                              <label htmlFor="exampleDataList" className="form-label">Tanggal</label>
                               <Form.Control type="date" id="tersedia" placeholder="Select Date" />
                             </Col>
 
                             <Col xs={12} lg={2}>
-                              <label for="exampleDataList" className="form-label">Waktu</label>
+                              <label htmlFor="exampleDataList" className="form-label">Waktu</label>
                               <Form.Control type="time" id="waktu" placeholder="Select Time" />
                             </Col>
 
                             <Col xs={12} lg={3}>
-                              <label for="exampleDataList" className="form-label">Jumlah Penumpang (Optional)</label>
+                              <label htmlFor="exampleDataList" className="form-label">Jumlah Penumpang (Optional)</label>
                               <Form.Control type="text" id="penumpang" placeholder="Jumlah Penumpang" />
                             </Col>        
                                                 
